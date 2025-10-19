@@ -1,0 +1,38 @@
+$ go test -benchmem -run=^$ -bench ^BenchmarkMableEvent$ -count 5 mable/pipeline
+---
+goos: windows
+goarch: amd64
+pkg: mable/pipeline
+cpu: AMD Ryzen 5 3600 6-Core Processor
+BenchmarkMableEvent/Size-10-12             55444             21803 ns/op            1258 B/op         28 allocs/op
+BenchmarkMableEvent/Size-10-12             56596             21316 ns/op            1257 B/op         28 allocs/op
+BenchmarkMableEvent/Size-10-12             54966             21963 ns/op            1257 B/op         28 allocs/op
+BenchmarkMableEvent/Size-10-12             54667             21791 ns/op            1257 B/op         28 allocs/op
+BenchmarkMableEvent/Size-10-12             53013             21691 ns/op            1257 B/op         28 allocs/op
+BenchmarkMableEvent/Size-100-12            30523             39486 ns/op           10287 B/op        208 allocs/op
+BenchmarkMableEvent/Size-100-12            30548             39727 ns/op           10287 B/op        208 allocs/op
+BenchmarkMableEvent/Size-100-12            29248             38456 ns/op           10287 B/op        208 allocs/op
+BenchmarkMableEvent/Size-100-12            30969             39546 ns/op           10287 B/op        208 allocs/op
+BenchmarkMableEvent/Size-100-12            29880             40436 ns/op           10287 B/op        208 allocs/op
+BenchmarkMableEvent/Size-10000-12           1128            937377 ns/op          970411 B/op      20041 allocs/op
+BenchmarkMableEvent/Size-10000-12           1282            926366 ns/op          970253 B/op      20041 allocs/op
+BenchmarkMableEvent/Size-10000-12           1282            925489 ns/op          970224 B/op      20040 allocs/op
+BenchmarkMableEvent/Size-10000-12           1264            927048 ns/op          970255 B/op      20041 allocs/op
+BenchmarkMableEvent/Size-10000-12           1248            918873 ns/op          970252 B/op      20040 allocs/op
+BenchmarkMableEvent/Size-100000-12           180           6657271 ns/op         9662468 B/op     200349 allocs/op
+BenchmarkMableEvent/Size-100000-12           180           6499314 ns/op         9662752 B/op     200352 allocs/op
+BenchmarkMableEvent/Size-100000-12           180           6558079 ns/op         9662002 B/op     200344 allocs/op
+BenchmarkMableEvent/Size-100000-12           178           6782113 ns/op         9662436 B/op     200349 allocs/op
+BenchmarkMableEvent/Size-100000-12           166           6958772 ns/op         9662367 B/op     200348 allocs/op
+BenchmarkMableEvent/Size-1000000-12           18          61358189 ns/op        96683978 B/op    2004428 allocs/op
+BenchmarkMableEvent/Size-1000000-12           21          62600419 ns/op        96664076 B/op    2004260 allocs/op
+BenchmarkMableEvent/Size-1000000-12           25          62321420 ns/op        96645352 B/op    2004104 allocs/op
+BenchmarkMableEvent/Size-1000000-12           24          62840433 ns/op        96653922 B/op    2004185 allocs/op
+BenchmarkMableEvent/Size-1000000-12           21          61979224 ns/op        96668573 B/op    2004306 allocs/op
+BenchmarkMableEvent/Size-10000000-12           2         640893800 ns/op        986217820 B/op  20198995 allocs/op
+BenchmarkMableEvent/Size-10000000-12           2         702080500 ns/op        983762828 B/op  20196937 allocs/op
+BenchmarkMableEvent/Size-10000000-12           2         595343000 ns/op        983698484 B/op  20196789 allocs/op
+BenchmarkMableEvent/Size-10000000-12           2         663717950 ns/op        981719788 B/op  20176178 allocs/op
+BenchmarkMableEvent/Size-10000000-12           2         676038850 ns/op        981567336 B/op  20174581 allocs/op
+PASS
+ok      mable/pipeline  78.807s

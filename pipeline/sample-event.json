@@ -1,0 +1,183 @@
+{
+    "bd": {
+        "aid": "01979c1b-364b-700c-a60b-b7146f2e7457",
+        "bsts": 1750670719192,
+        "cks": {
+            "_fbp": "fb.1.1750670807500.411873176",
+            "cart": "Z2NwLWV1cm9wZS13ZXN0NDowMUpZSlNKS0MyTlFXNkYxN1YyUVowNUo0Tg?key=fcfa3fd9cb59ac13248ee1c079a5fd27"
+        },
+        "iqpar": {},
+        "ir": "",
+        "is_backend": false,
+        "srh": 848,
+        "srw": 1312,
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "ul": "en-GB"
+    },
+    "cdas": {
+        "cc": [
+            "DE"
+        ],
+        "ct": [
+            "Bremen"
+        ],
+        "dob": [],
+        "ds": [
+            "shipping",
+            "billing",
+            "checkout"
+        ],
+        "em": [
+            "zero_cv_order@gmail.com"
+        ],
+        "fn": [
+            "new_customer_1234"
+        ],
+        "ge": [],
+        "id": [
+            "23547808219520"
+        ],
+        "ln": [
+            "new_customer"
+        ],
+        "ph": [],
+        "rc": [],
+        "rg": [],
+        "street": [
+            "Bremen Airport (BRE)123"
+        ],
+        "zip": [
+            "28199"
+        ]
+    },
+    "eid": "0197a599-ef42-7bb8-99e7-70e57cef4627",
+    "en": "Order Completed",
+    "ii": "01979c1c-976d-7550-b456-b78962f7d5d7",
+    "md": {
+        "duids": [
+            "0aedff3f-ecf7-450f-a467-dd22070a9023",
+            "50e69e99-f741-46ed-b750-84d45b0288a0",
+            "a55f11b3-f717-4260-b365-db62039b91f4",
+            "1d2ab25e-5b59-4d63-887d-47e66db80e02"
+        ],
+        "eo": "scriptTag_shopify_customPixel",
+        "pv": "0.0.1",
+        "session_found": true,
+        "suid": "dev-test-1906.myshopify.com",
+        "syst": "shopify",
+        "svc_metrics": [
+            {
+                "eat": "2025-06-25T05:40:18.917Z",
+                "edt": "2025-06-25T05:40:18.922Z",
+                "sn": "scriptag-wtag"
+            }
+        ],
+        "duid_conv_map": {
+            "50e69e99-f741-46ed-b750-84d45b0288a0": "customers/1151694903/conversionActions/7177241882"
+        }
+    },
+    "pd": {
+        "dl": "https://dev-test-1906.myshopify.com/checkouts/cn/Z2NwLWV1cm9wZS13ZXN0NDowMUpZSlNKS0MyTlFXNkYxN1YyUVowNUo0Tg/thank-you",
+        "dt": "Thank you for your purchase! - dev-test-1906 - Checkout",
+        "mp": 0,
+        "pb": 53700579,
+        "phct": 15,
+        "pp": 2110.0999999940395,
+        "qpar": {},
+        "rl": "https://dev-test-1906.myshopify.com/products/the-multi-managed-snowboard"
+    },
+    "pids": {
+        "epik": [],
+        "fbclid": [],
+        "gacid": [],
+        "gclid": [],
+        "ttclid": []
+    },
+    "sd": {
+        "ip4": "185.132.133.88",
+        "ip6": "",
+        "iqpar": {},
+        "is_backend": false,
+        "mid": {
+            "do": "https://dev-test-1906.myshopify.com/wpm@34ff2d10wc059d4efp7924d635m7b7b0f0e/custom/web-pixel-230359424@1/sandbox/modern/checkouts/cn/Z2NwLWV1cm9wZS13ZXN0NDowMUpZSlNKS0MyTlFXNkYxN1YyUVowNUo0Tg",
+            "lo": "en-GB",
+            "mid": "101896192384",
+            "re": "Germany",
+            "mh": "de",
+            "is_captured": true
+        },
+        "rl": "",
+        "sct": 3,
+        "sid": "0197a599-265f-7aab-8a97-76fa86b9a288",
+        "ssts": 1750829967
+    },
+    "ts": 1750830018,
+    "uaHeaders": {
+        "sec-ch-ua": "\"Google Chrome\";v=\"137\", \"Chromium\";v=\"137\", \"Not/A)Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "x-cpx-timestamp": "1750830018",
+        "event-id": "0197a599-ef42-7bb8-99e7-70e57cef4627",
+        "x-client-ip": "10.244.3.135",
+        "x-client-ip-v4": "10.244.3.135",
+        "x-client-ip-v6": "10.244.3.135",
+        "x-client-server-time-diff": "546",
+        "x-client-time": "1750830018375",
+        "x-cpx-event-id": "",
+        "x-forwarded-for": "185.132.133.88",
+        "x-real-ip": "185.132.133.88",
+        "x-request-duration": "0.00",
+        "x-server-time": "1750830018921"
+    },
+    "esd": {
+        "cart": {
+            "currency": "EUR",
+            "discounts": [],
+            "products": [
+                {
+                    "br": "Multi-managed Vendor",
+                    "cat": "snowboard",
+                    "cur": "EUR",
+                    "discounts": [],
+                    "id": "15207663632768",
+                    "ids": {
+                        "pid": "15207663632768",
+                        "pnu": "",
+                        "sku": "sku-managed-1",
+                        "vid": "56114332238208"
+                    },
+                    "nam": "The Multi-managed Snowboard",
+                    "prc": "629.95",
+                    "qty": 1,
+                    "totalDiscount": 0,
+                    "var": ""
+                }
+            ],
+            "quantity": 1,
+            "total": {
+                "discount": 0,
+                "line_items_price": 629.95,
+                "price": 629.95,
+                "shipping": 0,
+                "tax": 0
+            }
+        },
+        "cv_data": {
+            "cv": 629.95,
+            "discount": 0,
+            "org_cv": 629.95,
+            "shipping": 0,
+            "tax": 0
+        },
+        "oid": "11853102481792",
+        "onb": "",
+        "pay_methods": [
+            "bogus_BOGUS_creditCard"
+        ],
+        "tags": [
+            "googleads_50e69e99-f741-46ed-b750-84d45b0288a0_browser_sending_success",
+            "facebook_1d2ab25e-5b59-4d63-887d-47e66db80e02_browser_sending_success"
+        ]
+    }
+}
