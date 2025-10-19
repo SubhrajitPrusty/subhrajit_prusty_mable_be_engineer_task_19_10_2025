@@ -104,3 +104,8 @@ Run full benchmark suite:
 ```bash
 go test -benchmem -bench=. ./pipeline
 ```
+
+## Incomplete tasks
+
+- Video demo creation
+- Public grafana dashboard
